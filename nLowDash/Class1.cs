@@ -11,5 +11,11 @@ namespace nLowDash
         {
             using(disposable) return function(disposable);
         }
+
+        using(var stream = File.OpenRead()){
+            stream
+        }
+
+        Using(File.OpenRead(),f => f.ReadLines())
     }
 }

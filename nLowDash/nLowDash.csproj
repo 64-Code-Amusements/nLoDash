@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <PackageId>Floatingman.nLoDash</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Walt</Authors>
+    <Company>Floatingman</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+
+
 
 </Project>
