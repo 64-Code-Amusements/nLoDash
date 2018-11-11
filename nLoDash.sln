@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nLoDash", "nLoDash\nLoDash.csproj", "{4E7D205B-CD65-4E9A-8462-A1306406E399}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nLodash.Test", "nLoDash.Test\nLodash.Test.csproj", "{C09212C6-CE1E-4DBF-904D-09CECCF5ADFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{4E7D205B-CD65-4E9A-8462-A1306406E399}.Release|x64.Build.0 = Release|Any CPU
 		{4E7D205B-CD65-4E9A-8462-A1306406E399}.Release|x86.ActiveCfg = Release|Any CPU
 		{4E7D205B-CD65-4E9A-8462-A1306406E399}.Release|x86.Build.0 = Release|Any CPU
+		{C09212C6-CE1E-4DBF-904D-09CECCF5ADFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09212C6-CE1E-4DBF-904D-09CECCF5ADFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09212C6-CE1E-4DBF-904D-09CECCF5ADFC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C09212C6-CE1E-4DBF-904D-09CECCF5ADFC}.Debug|x64.Build.0 = Debug|Any CPU
+		{C09212C6-CE1E-4DBF-904D-09CECCF5ADFC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C09212C6-CE1E-4DBF-904D-09CECCF5ADFC}.Debug|x86.Build.0 = Debug|Any CPU
+		{C09212C6-CE1E-4DBF-904D-09CECCF5ADFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09212C6-CE1E-4DBF-904D-09CECCF5ADFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09212C6-CE1E-4DBF-904D-09CECCF5ADFC}.Release|x64.ActiveCfg = Release|Any CPU
+		{C09212C6-CE1E-4DBF-904D-09CECCF5ADFC}.Release|x64.Build.0 = Release|Any CPU
+		{C09212C6-CE1E-4DBF-904D-09CECCF5ADFC}.Release|x86.ActiveCfg = Release|Any CPU
+		{C09212C6-CE1E-4DBF-904D-09CECCF5ADFC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

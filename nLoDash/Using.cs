@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Floatingman.nLowDash
+namespace Floatingman.nLoDash
 {
     public static partial class _
     {
