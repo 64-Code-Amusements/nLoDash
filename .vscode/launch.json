@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/<insert-target-framework-here>/<insert-project-name-here>.dll",
+            "program": "${workspaceFolder}/nLoDash.Sample/bin/Debug/netcoreapp2.1/nLoDash.Sample.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",

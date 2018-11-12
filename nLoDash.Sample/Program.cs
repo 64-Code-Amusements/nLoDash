@@ -2,16 +2,26 @@
 using System.IO;
 
 using static Floatingman.nLoDash._;
+using Floatingman.nLoDash;
 
 namespace nLoDash.Sample {
     class Program {
         static void Main (string[] args) {
-            Run (Using (File.CreateText (Path.GetTempFileName ()), func => ((StreamWriter) func).Write ("Hey there")));
-            Console.WriteLine ("");
+
+            var s = Using<StreamWriter, Option<int>> (File.CreateText (Path.GetTempFileName ()), func => {
+                    ((StreamWriter) func).Write ("Hey there");
+                    return None;
+                });
+            Console.WriteLine (s);
+
+            Console.WriteLine (Greet (None));
+            Console.WriteLine (Greet ("Walt"));
+
         }
 
-        static Option Run<T> (Func<T, Option> func) {
-            return func ();
-        }
+        static string Greet (Option<string> greetee) => greetee.Match (
+            () => "Who is this?",
+            (name) => $"Hey {name}."
+        );
     }
 }
